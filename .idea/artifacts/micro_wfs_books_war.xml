@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="micro-wfs-books:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="micro-wfs-books.war">
+      <element id="artifact" artifact-name="micro-wfs-books:war exploded" />
+    </root>
+  </artifact>
+</component>
