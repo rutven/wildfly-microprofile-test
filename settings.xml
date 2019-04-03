@@ -1,0 +1,22 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <mirrors>
+
+        <mirror>
+            <id>sbt-nexus-central-mirror</id>
+            <name>sbt-nexus-central-mirror</name>
+            <url>http://nexus.sigma.sbrf.ru:8099/nexus/content/repositories/central/</url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+
+        <mirror>
+            <id>jboss-public-repository-group</id>
+            <name>jboss-public-repository-group</name>
+            <url>http://nexus.sigma.sbrf.ru:8099/nexus/content/repositories/sbns.jboss/</url>
+            <mirrorOf>jboss-public-repository-group</mirrorOf>
+        </mirror>        
+
+    </mirrors>
+</settings>
