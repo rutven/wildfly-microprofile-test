@@ -1,8 +1,1 @@
 language: java
-deploy:
-  provider: heroku
-  api_key:
-    secure: U10a+WDFDNDpzlxDM/BEVP32BUJUpEkMewjT5nNYkapn0OYNxMQjzmY1HOA0+OEGAz7atvhRW2hE2upQHhXS1bPXBl59pe2z2uE7tjI9oUlw8UICflli/PYR6PszQim1u/lbHL+IVDSrKjzYAa5gpgaKnRZsQNRYd38gVyVnOMbt4a5cR2akSotnT3GTwZcZ5dTf7MavSbOQ73WQV5XshQkZowRTCkYwItUl0tjv5MEke4/kf51Z19fM2ZUxXP81OdI3jp1zRz92HOUL70r/+0y4Pj6+dU2/jxr8q7ZPdtohU+HVCyf1WT/E/F7z5IMZ0Ud+44kJ2w6cpXxqbQ1D/Fv9usdHvcdCaMFPv52DQozQxdefLOj4aTdcIu/iUm88GPH4OH5kW3MqS1OgpqzVw+mHnE/xM+1UVPFszBNgn4ZpC4RP3V9E5bbAqnjEzPnjpmpXeRvtRSbYUPw0BdLv8ci+9N4+83f+MFNh8oTSQR4nHP4UWnJ+szCOtmILCOOqZj+hYugEimL12eboGGljv13fxyKvDgQrlDFSxTEUsZ/bHdhrexRT3S4XMP3kVoMF5q/vooRwT8wGkjZnMCn+YgcKqAgtmUoAuFRVTSO7Yf5pBr3cSlLd4/IFreIRYADkXeAvI8BkJeWzEt+BmEs7cpj45AtnyBNaBU+1T66ykMo=
-  app: micro-wfs-books
-  on:
-    repo: rutven/wildfly-microprofile-test
